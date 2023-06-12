@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+    <head>
+        <title> People </title>
+        <link rel="stylesheet" href="./Estilos/Styles.css">
+        <link src="./Javascript.js">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+
+    <body>
+      <header id="header">
+        <nav class="navegacion">
+          <ul class="menu">
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <li><img src="imagenes/Logo.png" alt="logo" class="logo-img"></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About%20Us.html">About Us</a></li>
+                <li><a href="#servicios">Servicios</a>
+                  <ul class="submenu">
+                    <li><a href="./Business.html">Business</a></li>
+                    <li><a href="./People.html">People</a></li>
+                    <li><a href="./Processes.html">Processes</a></li>
+                  </ul>
+                </li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="./Registro.html">Registro</a></li>
+              </div>
+              <div id="main">
+                <img src="imagenes/Logo.png" alt="logo" class="logo-responsive">
+                <button class="openbtn" onclick="openNav()">Menu<b class="letra"> ☰</b></button>  
+            </ul>
+            </nav>
+          </header>
+    
+          <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+
+          <section id="people">
+            <div class="background5-img">
+              <h1 class="titulopeople">People</h1>
+            </div>
+          </section>
+
+          <section id="contenedorpeople">
+           <div class="divpeople">
+            <img class="img-p2" src="Imagenes/personasyestructura2.png">
+            <h1 class="titulopeople2">Personas y estructura</h1>
+            <p class="textopeople">Ayudamos a definir qué tipo de trabajo hacen y con quién a través de un modelo de competencias adecuado al propósito, la misión y los valores de la empresa.</p>
+            <p class="textopeople">Trabajamos fuertemente en el reclutamientos y selección, definición de organigrama, roles y responsabilidades, niveles de control y toma de decisiones.</p>
+          </div>
+
+          <div class="divpeople3">
+            <img class="img-p3" src="Imagenes/liderazgo1.png">
+            <h1 class="titulopeople3">Liderazgo consciente y capacidades</h1>
+            <p class="textopeople3">Las capacidades y la manera de liderar representan las oportunidades y las restricciones con las que cuenta una compañía a la hora de generar resultados.</p>
+            <p class="textopeople3">Analizamos en profundidad los estilos de liderazgos poniendo especial foco en la responsabilidad como principio rector de cada acción, analizamos las capacidades y estilos con la que cuenta cada cliente lo que nos permite determinar aquellas a mantener y reforzar y aquellas a desaprender y aprender nuevas.</p>
+          </div>
+
+          <div class="divpeople4">
+            <img class="img-p4" src="Imagenes/cultura.png">
+            <h1 class="titulopeople2">Gestión consciente de la cultura y evolución organizacional</h1>
+            <p class="textopeople">Ponemos foco en la importancia de la coherencia e integridad en la definición del propósito, misión, valores, normas, sistemas de control, proceso de toma de decisiones, así como las creencias y rituales e historias.</p>
+            <p class="textopeople">Trabajamos la cultura y el cambio como drivers estratégicos para definir el diferencial en la propuesta de valor.</p>
+          </div>
+        </section>
+
+          <section id="contacto">
+            <div class="fondo">
+            <div class="contenedorcontacto">
+      
+              <div class="registrarse">
+                <div class="logo2">
+                  <h1><img src="imagenes/logo2.jpg" class="logo2-img"></h1>
+                </div>
+                <div class="frase">
+                  <p>Bussines, People and Processes to the next level</p>
+                </div>
+              </div>
+      
+              <div class="contactanos">
+                <h1 class="titulocontacto"> Cont&aacutectanos </h1>
+                <div class="icono1">
+                  <p><img src="imagenes/phone.png" class="phone-icon">+54 9 11 4992-9334</p>
+                </div>
+                <div class="icono2">
+                  <p><img src="imagenes/envelope.png" class="envelope-icon">cecilia@addsconsultora.com</p>
+                </div>
+                <div class="consultora">
+                  <p>&#169; 2023. Adds consultora - Soluciones en Recursos Humanos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+      
+          </body>
+      </html>

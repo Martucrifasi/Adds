@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+    <head>
+        <title> Registro </title>
+        <link rel="stylesheet" href="./Estilos/Styles.css">
+        <link src="./Javascript.js">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <header>
+            <nav class="navegacion">
+              <ul class="menu">
+                <div id="mySidebar" class="sidebar">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <li><img src="imagenes/Logo.png" alt="logo" class="logo-img"></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About%20Us.html">About Us</a></li>
+                <li><a href="#servicios">Servicios</a>
+                  <ul class="submenu">
+                    <li><a href="./Business.html">Business</a></li>
+                    <li><a href="./People.html">People</a></li>
+                    <li><a href="./Processes.html">Processes</a></li>
+                  </ul>
+                </li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#registro">Registro</a></li>
+              </div>
+              <div id="main">
+                <img src="imagenes/Logo.png" alt="logo" class="logo-responsive">
+                <button class="openbtn" onclick="openNav()">Menu<b class="letra"> ☰</b></button>  
+            </ul>
+            </nav>
+          </header>
+    
+          <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+          
+          <section id="registro">
+            <div class="background8-img">
+            <h1 class="tituloregistro">Envianos tu consulta</h1>
+            <p class="subtituloregistro">Respondemos a la brevedad.</p>
+        </section>
+
+        <section id="formulario">
+          <form class="form">
+            <div class="form-container">
+              <div class="form-group">
+                <input type="text" id="name" class="form-input" placeholder=" ">
+                <label for="name" class="form-label">Nombre:</label>
+                <span class="form-line"></span>
+              </div>
+            <div class="form-container">
+              <div class="form-group">
+                <input type="text" id="empresa" class="form-input" placeholder=" ">
+                <label for="empresa" class="form-label">Empresa:</label>
+                <span class="form-line"></span>
+              </div>
+            <div class="form-container">
+              <div class="form-group">
+                <input type="text" id="email" class="form-input" placeholder=" ">
+                <label for="email" class="form-label">Email:</label>
+                <span class="form-line"></span>
+              </div>
+            <div class="form-container">
+              <div class="form-group">
+                <input type="text" id="telefono" class="form-input" placeholder=" ">
+                <label for="telefono" class="form-label">Teléfono:</label>
+                <span class="form-line"></span>
+              </div>
+            <div class="form-container">
+              <div class="form-group">
+                <input type="text" id="mensaje" class="form-input" placeholder=" ">
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <span class="form-line"></span>
+              </div>
+
+            <input type="submit" class="form-submit" value="Enviar">
+            </div>
+          </form>
+        </section>
+
+          <section id="contacto">
+            <div class="fondo">
+            <div class="contenedorcontacto">
+      
+              <div class="registrarse">
+                <div class="logo2">
+                  <h1><img src="imagenes/logo2.jpg" class="logo2-img"></h1>
+                </div>
+                <div class="frase">
+                  <p>Bussines, People and Processes to the next level</p>
+                </div>
+              </div>
+      
+              <div class="contactanos">
+                <h1 class="titulocontacto"> Cont&aacutectanos </h1>
+                <div class="icono1">
+                  <p><img src="imagenes/phone.png" class="phone-icon">+54 9 11 4992-9334</p>
+                </div>
+                <div class="icono2">
+                  <p><img src="imagenes/envelope.png" class="envelope-icon">cecilia@addsconsultora.com</p>
+                </div>
+                <div class="consultora">
+                  <p>&#169; 2023. Adds consultora - Soluciones en Recursos Humanos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+      
+          </body>
+      </html>
