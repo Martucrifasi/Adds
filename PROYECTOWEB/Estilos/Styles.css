@@ -46,10 +46,11 @@ body {
     width: 100%;
     display: block;
     text-align: center;
+    align-items: center;
 }
 
 .sidebar>li {
-    height: 70px;
+    height: 60px;
     margin: 10px;
     position: relative;
     display: inline-block;
@@ -89,7 +90,7 @@ body {
     position: absolute;
     background: white;
     width: 100%;
-    visibility: hidden;
+    overflow: hidden;
     opacity: 0;
     transition: opacity 1.5s;
     border-radius: 5px;
@@ -108,8 +109,12 @@ body {
 
 .sidebar li:hover .submenu {
     visibility: visible;
+    cursor: pointer;
     opacity: 1;
 }
+
+
+
 
 .closebtn{
     display: none;
@@ -147,7 +152,7 @@ body {
 }
 
 .background-img {
-    background-image: url("../imagenes/fondo9.png");
+    background-image: url("../Imagenes/fondo9.png");
     width: 100%;
     height: 900px;
     background-repeat: no-repeat;
@@ -351,7 +356,7 @@ body {
 }
 
 .background2-img {
-    background-image: url("../imagenes/fondo22.png");
+    background-image: url("../Imagenes/fondo22.png");
     width: 100%;
     height: 998px;
     background-repeat: no-repeat;
@@ -450,7 +455,7 @@ body {
 }
 
 .fondo {
-    background-image: url("../imagenes/fondo.adds1.png");
+    background-image: url("../Imagenes/fondo.adds1.png");
     width: 100%;
     height: 680px;
     background-repeat: no-repeat;
@@ -595,7 +600,7 @@ body {
 }
 
 .background3-img {
-    background-image: url("../imagenes/fondo12.png");
+    background-image: url("../Imagenes/fondo12.png");
     width: 100%;
     height: 700px;
     background-repeat: no-repeat;
@@ -639,7 +644,7 @@ body {
 }
 
 .img-1 {
-    background-image: url("../imagenes/aboutus22.png");
+    background-image: url("../Imagenes/aboutus22.png");
     width: 50%;
     height: 800px;
     background-repeat: no-repeat;
@@ -699,7 +704,7 @@ body {
 }
 
 .img-2 {
-    background-image: url("../imagenes/aboutus1.png");
+    background-image: url("../Imagenes/aboutus1.png");
     width: 50%;
     height: 700px;
     background-repeat: no-repeat;
@@ -736,49 +741,6 @@ body {
     align-items: center;
 }
 
-.desplegable {
-    padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.button23 a {
-    text-decoration: none;
-    color: white;
-}
-
-.button23 {
-    font-size: 19px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    background-color: #f5904a;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #f5904a;
-    border-radius: 30px;
-    margin: 30px;
-    margin-right: 350px;
-    margin-left: 350px;
-}
-
-.button23:hover {
-    background-color: #501a64;
-    border-color: #501a64;
-    color: white;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #D80286;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.button23:hover a {
-    color: white;
-}
-
 #business {
     height: 550px;
 }
@@ -793,21 +755,24 @@ body {
 }
 
 .background4-img {
-    background-image: url("../imagenes/fondo10.png");
+    background-image: url("../Imagenes/fondo10.png");
     width: 100%;
-    height: 600px;
+    height: 1500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .divbusiness {
-    height: 700px;
-    background-color: white;
+    height: 600px;
+    background-color:rgba(255, 255, 255, 0.6);
     padding: 160px;
+    margin: 80px;
+    margin-top: 0;
     text-align: left;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
 }
 
 .titulobusiness2 {
@@ -837,7 +802,7 @@ body {
 }
 
 .background5-img {
-    background-image: url("../imagenes/fondo11.png");
+    background-image: url("../Imagenes/fondo11.png");
     width: 100%;
     height: 550px;
     background-repeat: no-repeat;
@@ -944,7 +909,7 @@ body {
 }
 
 .background6-img {
-    background-image: url("../imagenes/fondo11.png");
+    background-image: url("../Imagenes/fondo11.png");
     width: 100%;
     height: 550px;
     background-repeat: no-repeat;
@@ -975,7 +940,7 @@ body {
     text-align: justify;
 }
 .background7-img{
-    background-image: url("../imagenes/fondoprocesos1.png");
+    background-image: url("../Imagenes/fondoprocesos1.png");
     width: 100%;
     height: 550px;
     background-repeat: no-repeat;
@@ -1038,7 +1003,7 @@ body {
 
 .fondocajaprocesos1{
     height: 420px;
-    background-image: url("../imagenes/core.png");
+    background-image: url("../Imagenes/core.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1048,7 +1013,7 @@ body {
 
 .fondocajaprocesos2{
     height: 420px;
-    background-image: url("../imagenes/estrategia.png");
+    background-image: url("../Imagenes/estrategia.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1058,7 +1023,7 @@ body {
 
 .fondocajaprocesos3{
     height: 420px;
-    background-image: url("../imagenes/soporte.png");
+    background-image: url("../Imagenes/soporte.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1130,7 +1095,7 @@ body {
 .fondobullet1{
     width: 40%;
     height: 250px;
-    background-image: url("../imagenes/relaciones.png");
+    background-image: url("../Imagenes/relaciones.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1149,7 +1114,7 @@ body {
     float: right;
     width: 40%;
     height: 250px;
-    background-image: url("../imagenes/fusiones.png");
+    background-image: url("../Imagenes/fusiones.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1160,7 +1125,7 @@ body {
     float: right;
     width: 40%;
     height: 250px;
-    background-image: url("../imagenes/headcount.png");
+    background-image: url("../Imagenes/headcount.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1171,7 +1136,7 @@ body {
     float: right;
     width: 40%;
     height: 250px;
-    background-image: url("../imagenes/jornada.png");
+    background-image: url("../Imagenes/jornada.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1182,7 +1147,7 @@ body {
     float: right;
     width: 40%;
     height: 250px;
-    background-image: url("../imagenes/crisis.png");
+    background-image: url("../Imagenes/crisis.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1193,7 +1158,7 @@ body {
     float: right;
     width: 40%;
     height: 250px;
-    background-image: url("../imagenes/negociación.png");
+    background-image: url("../Imagenes/negociación.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1224,7 +1189,7 @@ body {
     animation: fadein 1s;
 }
 .background8-img{
-    background-image: url("../imagenes/fondoregistro.png");
+    background-image: url("../Imagenes/fondoregistro.png");
     width: 100%;
     height: 1500px;
     background-repeat: no-repeat;
@@ -1318,6 +1283,37 @@ body {
 
 
 @media screen and (max-width: 768px) {
+    .navegacion ul {
+        display:inline;
+    }
+    .sidebar>li {
+        height: 50px;
+        position: relative;
+        display: inline-block;
+        opacity: 1;
+    }
+    .sidebar>li>a {
+        font-size: 17px;
+        text-align: left;
+        margin-right: 110px;
+        margin-left: 0px;
+    }
+    .submenu {
+        position:static;
+        z-index: 1;
+        visibility: visible;
+        transition: none;
+    }
+    .submenu li a {
+        font-size: 16px;
+        display: block;
+        text-align: left;
+        margin-left: 30px;
+    }
+    .sidebar li:hover .submenu {
+        display: inline;
+    }
+    .sidebar li a::after {display: none;}
     .logo-img {display: none;}
     .logo-responsive{
         visibility: visible;
@@ -1327,6 +1323,7 @@ body {
         margin: 0;
         padding: 0;
         margin-left: 10px;
+        transition: none;
     }
     .sidebar {
         height: 100%;
@@ -1346,6 +1343,7 @@ body {
         display: block;
         transition: 0.3s;
         margin: 15px;
+        margin-top: 5px;
     }
     .sidebar a:hover {color: grey;}
     .sidebar .closebtn {
@@ -1499,7 +1497,7 @@ body {
 
     .fondo {
         height: 620px;
-        background-image: url("../imagenes/fondoadds1.png");
+        background-image: url("../Imagenes/fondoadds1.png");
     }
     .contenedorcontacto {
         width: 100%;
@@ -1620,15 +1618,17 @@ body {
         padding: 40px;
         padding-top: 80px;
     }
-    .img-2{background-image: url("../imagenes/768simplicidad.png");}
+    .img-2{background-image: url("../Imagenes/768simplicidad.png");}
 
-    
+    #business{height: 500px;}
     .titulobusiness {
         font-size: 55px;
+        padding-top: 250px;
     }
     .divbusiness {
         height: 500px;
         padding: 100px;
+        margin-bottom: 100px;
     }
     .titulobusiness2 {
         font-size: 44px;
@@ -1639,7 +1639,7 @@ body {
     }
     
     .background5-img {
-        background-image: url("../imagenes/fondo11.png");
+        background-image: url("../Imagenes/fondo11.png");
         width: 100%;
         height: 550px;
         background-repeat: no-repeat;
@@ -1647,13 +1647,15 @@ body {
         background-attachment:fixed;
     }
     
+    #people{height: 500px;}
     .titulopeople {
         font-size: 55px;
+        padding-top: 250px;
     }
-    .background5-img{background-image: url("../imagenes/768people.png");}
+    .background5-img{background-image: url("../Imagenes/768people.png");}
     .divpeople {
         height: 500px;
-        background-image: url("../imagenes/personasyestructura3.png");
+        background-image: url("../Imagenes/personasyestructura3.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -1679,7 +1681,7 @@ body {
     
     .divpeople3 {
         height: 600px;
-        background-image: url("../imagenes/liderazgo1.png");
+        background-image: url("../Imagenes/liderazgo1.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -1700,7 +1702,7 @@ body {
     
     .divpeople4 {
         height: 600px;
-        background-image: url("../imagenes/cultura2.png");
+        background-image: url("../Imagenes/cultura2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -1712,10 +1714,6 @@ body {
         display: none;
     }
 
-   
-.tituloprocesses {
-    font-size: 55px;
-}
 #sectionprocesses1 {
     height: 830px;
     padding: 40px;
@@ -1860,6 +1858,34 @@ body {
 
 
 @media screen and (max-width: 480px){
+    .navegacion ul {
+        display:inline;
+    }
+    .sidebar>li {
+        height: 50px;
+        position: relative;
+        display: inline-block;
+        opacity: 1;
+    }
+    .sidebar>li>a {
+        font-size: 16px;
+        text-align: left;
+        margin-right: 120px;
+        margin-left: 0px;
+    }
+    .submenu {
+        position:static;
+        z-index: 1;
+        visibility: visible;
+        transition: none;
+    }
+    .submenu li a {
+        font-size: 15px;
+        display: block;
+        text-align: left;
+        margin-left: 25px;
+    }
+    .sidebar li a::after {display: none;}
     .logo-img {display: none;}
     .logo-responsive{
         visibility: visible;
@@ -1869,6 +1895,7 @@ body {
         margin: 0;
         padding: 0;
         margin-left: 10px;
+        margin-top: 5px;
     }
     .sidebar {
         height: 100%;
@@ -1888,6 +1915,7 @@ body {
         display: block;
         transition: 0.3s;
         margin: 15px;
+        margin-top: 5px;
     }
     .sidebar a:hover { color: grey;}
     .sidebar .closebtn {
@@ -1926,7 +1954,7 @@ body {
     #home{
         height: 450px;
     }
-    .background-img{ background-image: url("../imagenes/480home.png");}
+    .background-img{ background-image: url("../Imagenes/480home.png");}
     .tituloslogan {
         font-size: 40px;
         padding-top: 180px;
@@ -2006,7 +2034,7 @@ body {
     #nosotros {
         height: 600px;
     }
-    .background2-img{background-image: url("../imagenes/480section.png");}
+    .background2-img{background-image: url("../Imagenes/480section.png");}
     .sobrenosotros {
         font-size: 32px;
         padding-top: 100px;
@@ -2058,7 +2086,7 @@ body {
     
     .fondo {
         height: 580px;
-        background-image: url("../imagenes/fondoadds2.png");
+        background-image: url("../Imagenes/fondoadds2.png");
     }
     .contenedorcontacto {
         width: 100%;
@@ -2109,7 +2137,7 @@ body {
     #aboutus {
         height: 400px;
     }
-    .background3-img{background-image: url("../imagenes/480about.png");}
+    .background3-img{background-image: url("../Imagenes/480about.png");}
     .tituloaboutus {
         font-size: 40px;
         padding-top: 190px;
@@ -2136,7 +2164,7 @@ body {
         color: gray;
     }
     .imgplus{
-        background-image: url("../imagenes/aboutus22.png");
+        background-image: url("../Imagenes/aboutus22.png");
         width: 100%;
         height: 300px;
         background-repeat: no-repeat;
@@ -2144,7 +2172,7 @@ body {
         background-attachment: inherit;
     }
     .imgplus2{
-        background-image: url("../imagenes/aboutus1.png");
+        background-image: url("../Imagenes/aboutus1.png");
         width: 100%;
         height: 300px;
         background-repeat: no-repeat;
@@ -2211,21 +2239,24 @@ body {
     }
     
     #business{height: 350px;}
-    .background4-img{background-image: url("../imagenes/480business.png");}
+    .background4-img{background-image: url("../Imagenes/fondo10.png"); height: 800px;}
     .titulobusiness {font-size: 40px; padding-top: 180px;}
     .divbusiness {
         height: 320px;
-        padding: 30px;
+        padding: 40px;
         padding-top: 50px;
+        margin: 40px;
+        margin-bottom: 50px;
+        margin-top: 0;
     }
-    .titulobusiness2 { font-size: 32px;}
+    .titulobusiness2 { font-size: 32px; padding-right: 80px;}
     .textobusiness {
         font-size: 15px;
         padding-top: 25px;
     }
     
     #people{height: 350px;}
-    .background5-img{background-image: url("../imagenes/480aboutus.png");}
+    .background5-img{background-image: url("../Imagenes/480aboutus.png");}
     .titulopeople {
         font-size: 40px;
         padding-top: 180px;
@@ -2275,7 +2306,7 @@ body {
         font-size: 40px;
     }
     #sectionprocesses1 {
-        height: 1490px;
+        height: 1450px;
         padding: 0px;
     }
     .tituloprocesses1 {
@@ -2332,7 +2363,7 @@ body {
     }
     .fondocajaprocesos1{
         height: 350px;
-        background-image: url("../imagenes/core.png");
+        background-image: url("../Imagenes/core.png");
         border-radius: 0px;
         -webkit-filter: grayscale(0%);
         -moz-filter: grayscale(0%);
@@ -2428,6 +2459,9 @@ body {
         font-size: 19px;
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .background8-img{
+        background-image: url("../Imagenes/480registro.png");
     }
     
     
