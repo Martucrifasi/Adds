@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+        <title> Business </title>
+        <link rel="stylesheet" href="./Estilos/Styles.css">
+        <link src="./Javascript.js">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+
+     <body>
+      <header id="header">
+        <nav class="navegacion">
+          <img src="imagenes/Logo.png" alt="logo" class="logo-responsive">
+          <ul class="menu">
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <li><img src="imagenes/Logo.png" alt="logo" class="logo-img"></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./About%20Us.html">About Us</a></li>
+            <li><a href="#servicios">Servicios</a>
+              <ul class="submenu">
+                <li><a href="./Business.html">Business</a></li>
+                <li><a href="./People.html">People</a></li>
+                <li><a href="./Processes.html">Processes</a></li>
+              </ul>
+            </li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="./Registro.html">Registro</a></li>
+          </div>
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">Menu<b class="letra"> ☰</b></button>  
+        </ul>
+        </nav>
+      </header>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+
+       <section id="business">
+        <div class="background4-img">
+          <h1 class="titulobusiness">Business</h1>
+        </div>
+      </section>
+
+       <div class="divbusiness">
+        <h1 class="titulobusiness2">Aspiración y estrategia</h1>
+        <p class="textobusiness">Trabajamos en conjunto con nuestros clientes en la definición y alineamiento del propósito, misión, objetivos y valores de su empresa.</p>
+        <p class="textobusiness">Pensamos las estrategias y tácticas más adecuadas para lograrlos.</p>
+      </div>
+
+       <section id="contacto">
+        <div class="fondo">
+        <div class="contenedorcontacto">
+  
+          <div class="registrarse">
+            <div class="logo2">
+              <h1><img src="imagenes/logo2.jpg" class="logo2-img"></h1>
+            </div>
+            <div class="frase">
+              <p>Bussines, people and processes to the next level</p>
+            </div>
+          </div>
+  
+          <div class="contactanos">
+            <h1 class="titulocontacto"> Cont&aacutectanos </h1>
+            <div class="icono1">
+              <p><img src="imagenes/phone.png" class="phone-icon">+54 9 11 4992-9334</p>
+            </div>
+            <div class="icono2">
+              <p><img src="imagenes/envelope.png" class="envelope-icon">cecilia@addsconsultora.com</p>
+            </div>
+            <div class="consultora">
+              <p>&#169; 2023. Adds consultora - Soluciones en Recursos Humanos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+  
+      </body>
+  </html>
